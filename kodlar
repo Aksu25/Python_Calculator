@@ -1,0 +1,19 @@
+#***************HESAP MAKİNESİ******************
+def main():
+    sonuc=0
+    sayi= int((input)("sayı gir : " ))
+    sayi2= int((input)("sayı gir : "))
+    islem = input("işlem seç : ")
+    if(islem=="+"):
+        sonuc=sayi+sayi2
+        print(sonuc)
+    elif(islem=="-"):
+        sonuc=sayi-sayi2
+        print(sonuc)
+    elif(islem=="*"):
+        sonuc=sayi*sayi2
+        print(sonuc)
+    elif(islem=="/"):
+        sonuc=sayi/sayi2
+        print(sonuc)
+    main()
